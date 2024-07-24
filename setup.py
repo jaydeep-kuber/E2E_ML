@@ -1,6 +1,7 @@
 from setuptools import find_packages, setup 
 from typing import List 
 
+
 HIPHUN_E_DOT = "-e ."
 
 def get_reqs(file_path:str)-> List[str]:
@@ -28,10 +29,8 @@ setup(
 
     name="mlproject",
     version="0.0.1",
-    author="jaydeep",
+    author="jaydeep Kuber",
     author_email="jayofficial085@gmail.com",
     packages=find_packages(), # __init__ req 
     install_requires=get_reqs("requirements.txt")
-
-
 )
